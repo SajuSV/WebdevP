@@ -1,0 +1,114 @@
+/* projects page
+   Each rule starts with a wrapper class (example: .site-footer)
+   so styles of one part never change another part. */
+
+.pg-projects .main {
+  padding-top: clamp(120px, 14vw, 180px);
+  padding-bottom: clamp(64px, 8vw, 120px);
+}
+
+.pg-projects .header {
+  max-width: 780px;
+  margin-bottom: clamp(40px, 5vw, 64px);
+}
+
+.pg-projects .title {
+  margin-top: var(--spacing-16);
+  font-size: clamp(44px, 5.5vw, 84px);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+}
+
+.pg-projects .muted {
+  color: var(--color-graphite);
+}
+
+.pg-projects .desc {
+  margin-top: var(--spacing-20);
+  font-size: clamp(17px, 1.5vw, 22px);
+  line-height: 1.4;
+  color: var(--color-graphite);
+}
+
+.pg-projects .grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--spacing-24);
+}
+
+.pg-projects .card {
+  min-width: 0;
+  background-color: var(--color-paper);
+  border-radius: var(--radius-2xl);
+  padding: clamp(24px, 3vw, 36px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-20);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pg-projects .card:hover {
+  transform: translateY(-4px);
+}
+
+.pg-projects .card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--spacing-16);
+}
+
+.pg-projects .card-title {
+  margin-top: var(--spacing-8);
+  font-size: clamp(26px, 2.5vw, 36px);
+  line-height: 1.1;
+}
+
+.pg-projects .arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-pill);
+  background-color: var(--color-bioluminescent-lime);
+  color: var(--color-abyssal-ink);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.pg-projects .card-desc {
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--color-graphite);
+  overflow-wrap: anywhere;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.pg-projects .media {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+  background-color: var(--color-tissue);
+}
+
+.pg-projects .cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .pg-projects .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .pg-projects .grid {
+    grid-template-columns: 1fr;
+  }
+}

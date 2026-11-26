@@ -1,0 +1,210 @@
+{
+  "adminAuth": {
+    "loginId": "johndoe@example.com",
+    "password": "",
+    "requireLogin": true
+  },
+  "site": {
+    "name": "John Doe",
+    "role": "Lorem Ipsum Designer",
+    "tagline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "heroTitleLine1": "Hi, I’m John Doe —",
+    "heroTitleLine2": "Lorem Ipsum.",
+    "heroSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "heroCtaLabel": "View Projects",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+    "servicesHeading": "Lorem ipsum.",
+    "aboutTitle": "Lorem ipsum dolor.",
+    "workInFocusTitle": "Lorem Ipsum",
+    "projectsPageTitle": "Lorem",
+    "projectsPageMutedTitle": "Ipsum",
+    "projectsPageDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "footerHeading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+    "footerCtaLabel": "Contact me",
+    "footerDisclaimer": "Lorem ipsum dolor sit amet.",
+    "email": "johndoe@example.com",
+    "phone": "+1 (555) 010-2030",
+    "phoneHref": "tel:+15550102030",
+    "location": "Lorem City, Dolor",
+    "linkedinUrl": "https://www.linkedin.com/in/johndoe",
+    "linkedinLabel": "linkedin.com/in/johndoe",
+    "contactHeading": "Lorem ipsum.",
+    "avatar": "https://placehold.co/600x750/18181b/e4e4e7?text=John+Doe",
+    "resumeUrl": "",
+    "heroVideoUrl": "",
+    "copyright": "© 2026 John Doe. All rights reserved."
+  },
+  "statements": [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  ],
+  "stats": [
+    { "value": "5+", "label": "Lorem Ipsum" },
+    { "value": "20+", "label": "Dolor Sit Amet" },
+    { "value": "15+", "label": "Consectetur Elit" },
+    { "value": "50+", "label": "Tempor Incididunt" }
+  ],
+  "toolkitPills": [
+    "Lorem",
+    "Ipsum",
+    "Dolor",
+    "Sit Amet",
+    "Consectetur",
+    "Adipiscing",
+    "Elit",
+    "Tempor",
+    "Incididunt",
+    "Labore",
+    "Dolore",
+    "Magna"
+  ],
+  "quickFacts": [
+    { "label": "Based", "value": "Lorem City, Dolor" },
+    { "label": "Studied", "value": "Lorem University (2018–2022)" },
+    { "label": "Now", "value": "Lorem Ipsum, Dolor Studio" }
+  ],
+  "experience": [
+    {
+      "role": "Lorem Ipsum Lead",
+      "period": "2024 – Now",
+      "place": "Dolor Studio"
+    },
+    {
+      "role": "Consectetur Designer",
+      "period": "2023 – 2024",
+      "place": "Adipiscing Agency"
+    },
+    {
+      "role": "Tempor Incididunt Intern",
+      "period": "2022 – 2023",
+      "place": "Lorem, Ipsum, Dolor, Sit Amet"
+    },
+    {
+      "role": "Bachelor of Lorem Ipsum",
+      "period": "2018 – 2022",
+      "place": "Lorem University"
+    }
+  ],
+  "workCategories": [
+    {
+      "index": "01.",
+      "slug": "/projects/lorem-alpha",
+      "title": "Lorem Alpha",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "icon": "https://placehold.co/96x96/111111/c8f169?text=01",
+      "variant": "lime"
+    },
+    {
+      "index": "02.",
+      "slug": "/projects/ipsum-beta",
+      "title": "Ipsum Beta",
+      "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+      "icon": "https://placehold.co/96x96/f5f5f5/111111?text=02",
+      "variant": "ink"
+    },
+    {
+      "index": "03.",
+      "slug": "/projects/dolor-gamma",
+      "title": "Dolor Gamma",
+      "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "icon": "https://placehold.co/96x96/111111/f5f5f5?text=03",
+      "variant": "tissue"
+    }
+  ],
+  "contactItems": [
+    {
+      "label": "Email",
+      "value": "johndoe@example.com",
+      "href": "mailto:johndoe@example.com",
+      "icon": "email",
+      "variant": "lime"
+    },
+    {
+      "label": "Place",
+      "value": "Lorem City, Dolor",
+      "href": "",
+      "icon": "location",
+      "variant": "ink"
+    },
+    {
+      "label": "Phone",
+      "value": "+1 (555) 010-2030",
+      "href": "tel:+15550102030",
+      "icon": "phone",
+      "variant": "paper"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "linkedin.com/in/johndoe",
+      "href": "https://www.linkedin.com/in/johndoe",
+      "icon": "linkedin",
+      "variant": "tissue"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "lorem-alpha",
+      "title": "Lorem Alpha",
+      "headlineDim": "Lorem ipsum",
+      "headlineRest": "dolor sit amet consectetur.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "meta": [
+        { "label": "Focus", "value": "Lorem Alpha" },
+        { "label": "Tools", "value": "Lorem, Ipsum & Dolor" }
+      ],
+      "cover": "https://placehold.co/1200x800/18181b/e4e4e7?text=Lorem+Alpha",
+      "coverAlt": "Lorem Alpha cover",
+      "galleryLabel": "Lorem Gallery",
+      "enableLightbox": true,
+      "images": [
+        { "src": "https://placehold.co/1200x800/27272a/f4f4f5?text=Lorem+Alpha+1", "alt": "Lorem Alpha 1" },
+        { "src": "https://placehold.co/1200x800/27272a/f4f4f5?text=Lorem+Alpha+2", "alt": "Lorem Alpha 2" },
+        { "src": "https://placehold.co/1200x800/27272a/f4f4f5?text=Lorem+Alpha+3", "alt": "Lorem Alpha 3" },
+        { "src": "https://placehold.co/1200x800/27272a/f4f4f5?text=Lorem+Alpha+4", "alt": "Lorem Alpha 4" }
+      ]
+    },
+    {
+      "slug": "ipsum-beta",
+      "title": "Ipsum Beta",
+      "headlineDim": "Ut enim ad",
+      "headlineRest": "minim veniam quis nostrud.",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.",
+      "meta": [
+        { "label": "Focus", "value": "Ipsum Beta" },
+        { "label": "Tools", "value": "Consectetur & Adipiscing" }
+      ],
+      "cover": "https://placehold.co/1200x800/18181b/c8f169?text=Ipsum+Beta",
+      "coverAlt": "Ipsum Beta cover",
+      "galleryLabel": "Ipsum Gallery",
+      "enableLightbox": true,
+      "images": [
+        { "src": "https://placehold.co/1200x800/27272a/c8f169?text=Ipsum+Beta+1", "alt": "Ipsum Beta 1" },
+        { "src": "https://placehold.co/1200x800/27272a/c8f169?text=Ipsum+Beta+2", "alt": "Ipsum Beta 2" },
+        { "src": "https://placehold.co/1200x800/27272a/c8f169?text=Ipsum+Beta+3", "alt": "Ipsum Beta 3" },
+        { "src": "https://placehold.co/1200x800/27272a/c8f169?text=Ipsum+Beta+4", "alt": "Ipsum Beta 4" }
+      ]
+    },
+    {
+      "slug": "dolor-gamma",
+      "title": "Dolor Gamma",
+      "headlineDim": "Duis aute",
+      "headlineRest": "irure dolor in reprehenderit.",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "meta": [
+        { "label": "Focus", "value": "Dolor Gamma" },
+        { "label": "Tools", "value": "Elit, Tempor" }
+      ],
+      "cover": "https://placehold.co/1200x800/27272a/f4f4f5?text=Dolor+Gamma",
+      "coverAlt": "Dolor Gamma cover",
+      "galleryLabel": "Dolor Gallery",
+      "enableLightbox": false,
+      "images": [
+        { "src": "https://placehold.co/600x400/18181b/e4e4e7?text=Client+Lorem", "alt": "Client Lorem" },
+        { "src": "https://placehold.co/600x400/18181b/e4e4e7?text=Client+Ipsum", "alt": "Client Ipsum" },
+        { "src": "https://placehold.co/600x400/18181b/e4e4e7?text=Client+Dolor", "alt": "Client Dolor" },
+        { "src": "https://placehold.co/600x400/18181b/e4e4e7?text=Client+Amet", "alt": "Client Amet" }
+      ]
+    }
+  ]
+}
