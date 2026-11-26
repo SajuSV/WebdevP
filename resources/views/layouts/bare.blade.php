@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 </head>
 <body>
+    @include('partials.loader')
     <div class="pg-login">
         @yield('content')
     </div>

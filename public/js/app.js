@@ -3,6 +3,19 @@
  | It does the jobs that Angular did before: menu, scroll effect, tabs and lightbox.
  */
 
+/* ---------- 0. Page loader (hide only after full page load) ---------- */
+const pageLoader = document.getElementById('pageLoader');
+if (pageLoader) {
+    const hideLoader = () => {
+        pageLoader.classList.add('is-hidden');
+    };
+    if (document.readyState === 'complete') {
+        hideLoader();
+    } else {
+        window.addEventListener('load', hideLoader);
+    }
+}
+
 /* ---------- 1. Navbar + mobile menu ---------- */
 const header = document.getElementById('siteHeader');
 

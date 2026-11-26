@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ asset('css/admin.css') }}">
 </head>
 <body>
+    @include('partials.loader')
     @php
         // Menu: label => [route name, pattern used to highlight the current page]
         $menu = [

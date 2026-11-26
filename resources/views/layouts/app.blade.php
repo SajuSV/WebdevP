@@ -15,6 +15,7 @@
     @stack('styles')
 </head>
 <body>
+    @include('partials.loader')
     @include('partials.navbar')
 
     <div class="page-content">
