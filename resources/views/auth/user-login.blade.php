@@ -24,13 +24,12 @@
     <section class="form-pane">
         <div class="login-shell">
             <div class="top-bar">
-                <a href="{{ url('/') }}" class="back-link">← Back to Portfolio</a>
+                <span class="mono-label">User Login</span>
                 <span class="mono-label">{{ $site->name }}</span>
             </div>
 
             <div class="login-card">
                 <div class="card-head">
-                    <span class="mono-label">User Login</span>
                     <h1 class="title">Welcome <span class="muted">back.</span></h1>
                     <p class="subtitle">Sign in with your account credentials to continue.</p>
                 </div>
