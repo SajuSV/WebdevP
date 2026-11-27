@@ -36,7 +36,7 @@
                         </ul>
                     </div>
 
-                    <button type="button" class="scroll" data-scroll-top>Top</button>
+                    <!-- <button type="button" class="scroll" data-scroll-top>Top</button> -->
                 </div>
             </div>
 
